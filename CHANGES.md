@@ -16,6 +16,8 @@
 ### Fix
 
 - Revert the deprecation warning on `json` type aliases
+- Avoid copying unnecessarily large amounts of strings when parsing (#85, #108,
+  @Leonidas-from-XIV)
 
 ## 1.7.0
 
